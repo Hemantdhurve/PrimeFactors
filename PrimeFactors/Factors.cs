@@ -12,6 +12,7 @@ namespace PrimeFactors
         {
             Console.WriteLine("\tEnter the Number which User want to get Prime Factors:");
             Console.WriteLine("Enter Number:");
+
             int number = Convert.ToInt32(Console.ReadLine());
 
             for(int i = 2; i < number; i++)
